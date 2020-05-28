@@ -6,14 +6,14 @@ int main(void)
     scanf("%d %d %d", &a, &b, &c);  
     if( a+b > c && a+c > b && b+c > a   )  
     {  
-        printf("¦X²z");  
+        printf("åˆç†");  
         if(a*a+b*b == c*c || a*a+c*c == b*b || b*b+c*c == a*a)    
-            printf(",ª½¨¤¤T¨¤§Î");  
+            printf(",ç›´è§’ä¸‰è§’å½¢");  
         else  
-            printf(",¤£¬Oª½¨¤¤T¨¤§Î");   
+            printf(",ä¸æ˜¯ç›´è§’ä¸‰è§’å½¢");   
     }  
     else  
-        printf("¤£¦X²z");  
+        printf("ä¸åˆç†");  
     printf("\n");  
   
     system("pause");   
